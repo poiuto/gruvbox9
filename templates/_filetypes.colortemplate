@@ -241,6 +241,8 @@ jsFrom                           red  none
 jsThis                           purple none
 jsParen                          blue none
 jsOperator                       aqua none
+jsSpreadOperator                 green none
+jsSpreadExpression               blue  none
 jsClassKeyword                   red   none 
 jsClassProperty                  green none
 jsExtendsKeyword                 red   none          

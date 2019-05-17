@@ -4,7 +4,7 @@
 " Maintainer:   Lifepillar <lifepillar@lifepillar.me>
 " Website:      https://github.com/lifepillar/vim-gruvbox8/
 " License:      Vim License (see `:help license`)
-" Last Updated: Fri May 17 16:49:45 2019
+" Last Updated: Fri May 17 17:16:22 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
@@ -470,6 +470,8 @@ if &background ==# 'dark'
     hi jsThis ctermfg=175 ctermbg=NONE guifg=#d3869b guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi jsParen ctermfg=109 ctermbg=NONE guifg=#83a598 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi jsOperator ctermfg=107 ctermbg=NONE guifg=#8ec07c guibg=NONE guisp=NONE cterm=NONE gui=NONE
+    hi jsSpreadOperator ctermfg=142 ctermbg=NONE guifg=#b8bb26 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+    hi jsSpreadExpression ctermfg=109 ctermbg=NONE guifg=#83a598 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi jsClassKeyword ctermfg=203 ctermbg=NONE guifg=#fb4934 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi jsClassProperty ctermfg=142 ctermbg=NONE guifg=#b8bb26 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi jsExtendsKeyword ctermfg=203 ctermbg=NONE guifg=#fb4934 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -1100,6 +1102,8 @@ if get(g:, "gruvbox_filetype_hi_groups", 0)
   hi jsThis ctermfg=126 ctermbg=NONE guifg=#8f3f71 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi jsParen ctermfg=23 ctermbg=NONE guifg=#076678 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi jsOperator ctermfg=29 ctermbg=NONE guifg=#427b58 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi jsSpreadOperator ctermfg=100 ctermbg=NONE guifg=#79740e guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi jsSpreadExpression ctermfg=23 ctermbg=NONE guifg=#076678 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi jsClassKeyword ctermfg=124 ctermbg=NONE guifg=#9d0006 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi jsClassProperty ctermfg=100 ctermbg=NONE guifg=#79740e guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi jsExtendsKeyword ctermfg=124 ctermbg=NONE guifg=#9d0006 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -1673,6 +1677,8 @@ finish
 " jsThis                           purple none
 " jsParen                          blue none
 " jsOperator                       aqua none
+" jsSpreadOperator                 green none
+" jsSpreadExpression               blue  none
 " jsClassKeyword                   red   none 
 " jsClassProperty                  green none
 " jsExtendsKeyword                 red   none          
@@ -2236,6 +2242,8 @@ finish
 " jsThis                           purple none
 " jsParen                          blue none
 " jsOperator                       aqua none
+" jsSpreadOperator                 green none
+" jsSpreadExpression               blue  none
 " jsClassKeyword                   red   none 
 " jsClassProperty                  green none
 " jsExtendsKeyword                 red   none          
