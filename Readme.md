@@ -1,4 +1,5 @@
-# Gruvbox 8 - Vim Colorscheme
+# Gruvbox 9 - Vim Colorscheme
+> This is based on [gruvbox8](https://github.com/lifepillar/vim-gruvbox8), I have add js and jsx surpport when use [vim-jsx-improve plugin](https://github.com/neoclide/vim-jsx-improve/pull/47)
 
 This is a simplified and optimized<sup>*</sup> version of
 [Gruvbox](https://github.com/morhetz/gruvbox) that I have developed
