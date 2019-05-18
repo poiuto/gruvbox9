@@ -1,6 +1,5 @@
 # Gruvbox 9 - Vim Colorscheme
-> The gruvbox9 is based on [gruvbox8](https://github.com/lifepillar/vim-gruvbox8), I have add js and jsx surpport when use [vim-jsx-improve plugin](https://github.com/neoclide/vim-jsx-improve/pull/47)
-
+> The gruvbox9 is based on [gruvbox8](https://github.com/lifepillar/vim-gruvbox8), I have add javascript and jsx surpport when use [vim-jsx-improve plugin](https://github.com/neoclide/vim-jsx-improve/pull/47)
 
 ## Hacking
 
