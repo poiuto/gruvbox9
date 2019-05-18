@@ -21,7 +21,7 @@ Each variant supports dark and light backgrounds, so you must set 'background'
 before loading the colorscheme. For example:
 >
 	set background=dark
-	colorscheme gruvbox8
+	colorscheme gruvbox9
 <
 Gruvbox 9 requires at least 256 colors and supports "true color" terminals.
 
