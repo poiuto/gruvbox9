@@ -22,17 +22,14 @@ before loading the colorscheme. For example:
 >
 	set background=dark
 	colorscheme gruvbox9
-<
+
 Gruvbox 9 requires at least 256 colors and supports "true color" terminals.
 
 ==============================================================================
-1. Colorscheme options					*gruvbox-options*
-```
-g:gruvbox_filetype_hi_groups*
-```
+
 Set to 1 to include syntax highlighting definitions for several filetypes.
 ```
-let g:gruvbox_filetype_hi_groups = 0
+let g:gruvbox_filetype_hi_groups = 1
 ```
 Note: setting this to 1 may leave "a wake of destruction when switching away"
 (Tim Pope), that is, when you switch to a different colorscheme the
