@@ -13,9 +13,9 @@
 ![](https://github.com/taigacute/IMG/blob/master/gruvbox9/visual.png)
 ![](https://github.com/taigacute/IMG/blob/master/gruvbox9/replace.png)
 # Option
-- gruvbox8: "medium" contrast;
-- gruvbox8_hard: "hard" contrast;
-- gruvbox8_soft: "soft" contrast.
+- gruvbox9: "medium" contrast;
+- gruvbox9_hard: "hard" contrast;
+- gruvbox9_soft: "soft" contrast.
 
 Each variant supports dark and light backgrounds, so you must set 'background'
 before loading the colorscheme. For example:
