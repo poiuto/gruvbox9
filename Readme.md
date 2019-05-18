@@ -40,30 +40,27 @@ highlighting may look wrong or disabled.
 
 	
 Set to 1 if you want to enable italics in the terminal. Note that the terminal
-must support italics.
+must support italics.defalut 0
 >
-	let g:gruvbox_italic = 0
+	let g:gruvbox_italic = 1
 
-						*g:gruvbox_italicize_strings*
-Set to 1 if you want strings in italics.
+Set to 1 if you want strings in italics.defalut 0
 >
-	let g:gruvbox_italicize_strings = 0
+	let g:gruvbox_italicize_strings = 1
 
-						*g:gruvbox_plugin_hi_groups*
 Set to 1 to include syntax highlighting definitions for a number of popular
-plugins:
+plugins defalut 0:
 >
-	let g:gruvbox_plugin_hi_groups = 0
+	let g:gruvbox_plugin_hi_groups = 1
 
 Note: setting this to 1 may leave "a wake of destruction when switching away"
 (Tim Pope), that is, when you switch to a different colorscheme the
 highlighting may look wrong or disabled.
 
-						*g:gruvbox_transp_bg*
 Set to 1 if you want a transparent background. Takes effect only in the
-terminal.
+terminal defalut 0.
 >
-	let g:gruvbox_transp_bg = 0
+	let g:gruvbox_transp_bg = 1
 
 
 ## Hacking
