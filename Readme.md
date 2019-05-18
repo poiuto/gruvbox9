@@ -12,6 +12,60 @@
 ![](https://github.com/taigacute/IMG/blob/master/gruvbox9/insert.png)
 ![](https://github.com/taigacute/IMG/blob/master/gruvbox9/visual.png)
 ![](https://github.com/taigacute/IMG/blob/master/gruvbox9/replace.png)
+# Option
+- gruvbox8: "medium" contrast;
+- gruvbox8_hard: "hard" contrast;
+- gruvbox8_soft: "soft" contrast.
+
+Each variant supports dark and light backgrounds, so you must set 'background'
+before loading the colorscheme. For example:
+>
+	set background=dark
+	colorscheme gruvbox8
+<
+Gruvbox 9 requires at least 256 colors and supports "true color" terminals.
+
+==============================================================================
+1. Colorscheme options					*gruvbox-options*
+```
+g:gruvbox_filetype_hi_groups*
+```
+Set to 1 to include syntax highlighting definitions for several filetypes.
+```
+let g:gruvbox_filetype_hi_groups = 0
+```
+Note: setting this to 1 may leave "a wake of destruction when switching away"
+(Tim Pope), that is, when you switch to a different colorscheme the
+highlighting may look wrong or disabled.
+
+	
+Set to 1 if you want to enable italics in the terminal. Note that the terminal
+must support italics.
+>
+	let g:gruvbox_italic = 0
+
+						*g:gruvbox_italicize_strings*
+Set to 1 if you want strings in italics.
+>
+	let g:gruvbox_italicize_strings = 0
+
+						*g:gruvbox_plugin_hi_groups*
+Set to 1 to include syntax highlighting definitions for a number of popular
+plugins:
+>
+	let g:gruvbox_plugin_hi_groups = 0
+
+Note: setting this to 1 may leave "a wake of destruction when switching away"
+(Tim Pope), that is, when you switch to a different colorscheme the
+highlighting may look wrong or disabled.
+
+						*g:gruvbox_transp_bg*
+Set to 1 if you want a transparent background. Takes effect only in the
+terminal.
+>
+	let g:gruvbox_transp_bg = 0
+
+
 ## Hacking
 
 Do you want to hack the theme? Install
