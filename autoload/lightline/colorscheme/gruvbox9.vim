@@ -27,7 +27,7 @@ let s:fg4 = [ '#a89984', 246 ]
 
 
 let s:p = {'normal':{}, 'inactive':{}, 'insert':{}, 'replace':{}, 'visual':{}, 'tabline':{}, 'terminal':{}}
-  let s:p.normal.left = [ [ s:bg0, s:fg4, 'bold' ], [ s:fg4, s:bg0 ] ,[s:fg3,s:bg4],[s:red1,s:gray],[s:orange,s:bg4]]
+  let s:p.normal.left = [ [ s:bg0, s:fg4, 'bold' ], [ s:fg4, s:bg3] ,[s:fg3,s:bg4],[s:red1,s:gray],[s:orange,s:bg4]]
   let s:p.normal.right = [ [ s:bg0, s:bg4 ], [ s:bg0, s:fg4 ],[ s:bg0, s:bg4 ] ,[s:bg0,s:fg4]]
   let s:p.normal.middle = [ [ s:fg4, s:bg1 ] ]
   let s:p.inactive.right = [ [ s:bg4, s:bg1 ], [ s:bg4, s:bg1 ] ]
@@ -43,7 +43,7 @@ let s:p = {'normal':{}, 'inactive':{}, 'insert':{}, 'replace':{}, 'visual':{}, '
   let s:p.replace.right = [ [ s:bg0, s:aqua ], [ s:fg1, s:bg0 ] ,[ s:bg0, s:bg4 ] ,[s:bg0,s:fg4]]
   let s:p.replace.middle = [ [ s:fg4, s:bg2 ] ]
   let s:p.visual.left = [ [ s:bg0, s:orange, 'bold' ], [ s:fg1, s:bg0 ],[s:fg3,s:bg4],[s:red1,s:gray],[s:orange,s:bg4] ]
-  let s:p.visual.right = [ [ s:bg0, s:orange ], [ s:bg0, s:bg4 ] ,[ s:bg0, s:bg4 ] ,[s:bg0,s:fg4]]
+  let s:p.visual.right = [ [ s:bg0, s:orange ], [ s:bg0, s:orange] ,[ s:bg0, s:bg4 ] ,[s:bg0,s:fg4]]
   let s:p.visual.middle = [ [ s:fg4, s:bg1 ] ]
   let s:p.tabline.left = [ [ s:fg4, s:bg1 ] ]
   let s:p.tabline.tabsel = [ [ s:bg0, s:fg4 ] ]
