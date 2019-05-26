@@ -1,10 +1,10 @@
 " Name:         Gruvbox 9 Hard
 " Description:  Retro groove color scheme originally designed by morhetz
 " Author:       morhetz <morhetz@gmail.com>
-" Maintainer:   Lifepillar <lifepillar@lifepillar.me>
-" Website:      https://github.com/lifepillar/vim-gruvbox8/
+" Maintainer:   taigacute 
+" Website:      https://github.com/taigacute/vim-gruvbox9/
 " License:      Vim License (see `:help license`)
-" Last Updated: Fri May 17 17:16:22 2019
+" Last Updated: Sun May 26 12:42:44 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
