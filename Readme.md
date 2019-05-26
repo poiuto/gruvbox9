@@ -1,7 +1,7 @@
 # Gruvbox 9 - Vim Colorscheme
-* The gruvbox9 is based on [gruvbox8](https://github.com/lifepillar/vim-gruvbox8), I have add javascript and jsx surpport when use [vim-jsx-improve plugin](https://github.com/neoclide/vim-jsx-improve/pull/47),if you want get a good experiece when you write js and jsx, you must use gruvbox9 with vim-jsx-improve.
-* i submit a pr for gruvbox8 to add js and jsx surpport.but i found some color not look good for me ,so i changed some color and add some plugin surpport.
-* cause i changed too many color. i create this repo gruvbox9
+* The gruvbox9 is based on [gruvbox](https://github.com/morhetz/gruvbox) and [gruvbox8](https://github.com/lifepillar/vim-gruvbox8), I have add javascript and jsx surpport when use [vim-jsx-improve plugin](https://github.com/neoclide/vim-jsx-improve/pull/47),if you want get a good experiece when you write js and jsx, you must use gruvbox9 with vim-jsx-improve.
+* i submit a pr for gruvbox8 to add js and jsx surpport.but i found some color not look good for me ,so i changed some color and add some plugins surpport.
+* cause i changed too many colors. i create this repo gruvbox9
 
 # Jsx
 ![gruvbox9](https://github.com/taigacute/IMG/blob/master/gruvbox9/gruvbox9.png)
