@@ -151,7 +151,7 @@ StartifyPath                     grey   none
 StartifySlash                    grey   none
 StartifySection                  yellow none
 StartifySpecial                  bg2    none
-StartifyHeader                   orange none
+StartifyHeader                   yellow none
 StartifyFooter                   bg2    none
 # }}}
 # Syntastic {{{
