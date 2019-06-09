@@ -154,6 +154,12 @@ StartifySpecial                  bg2    none
 StartifyHeader                   yellow none
 StartifyFooter                   bg2    none
 # }}}
+# Denite {{{
+deniteSeelectedLine             yellow none
+deniteMatchedChar               green  none    bold 
+deniteMatchedRange              blue   none    underline
+deniteMode                      grey   none    g=italic
+#}}}
 # Syntastic {{{
 SyntasticError                   none   none    t=underline g=undercurl s=red
 SyntasticWarning                 none   none    t=underline g=undercurl s=yellow
