@@ -3,16 +3,8 @@
 * i submit a pr for gruvbox8 to add js and jsx surpport.but i found some color not look good for me ,so i changed some color and add some plugins surpport.
 * cause i changed too many colors. i create this repo gruvbox9
 
-<sup>*</sup> Loads in ~1.5ms compared to the >9ms required by Gruvbox.
-
-## True-color Variants
-
-![](https://raw.github.com/lifepillar/Resources/master/gruvbox8/gruvbox8-variants.png)
-
-## 256-color Variants
-
-![](https://raw.github.com/lifepillar/Resources/master/gruvbox8/gruvbox8-256-variants.png)
-
+# Jsx
+![gruvbox9](https://github.com/taigacute/IMG/blob/master/gruvbox9/gruvbox9.png)
 
 # Lightline
 * Normal-INSET-VISUAL-REPLACE
@@ -67,8 +59,7 @@ terminal defalut 0.
 >
 	let g:gruvbox_transp_bg = 1
 
-# Javascript.jsx
-![gruvbox9](https://github.com/taigacute/IMG/blob/master/gruvbox9/gruvbox9.png)
+
 ## Hacking
 
 Do you want to hack the theme? Install
