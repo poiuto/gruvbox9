@@ -164,6 +164,7 @@ WhichKey                        purple none
 WhichKeySeperator               grey  none
 WhichKeyGroup                -> Keyword  
 WhichKeyDesc                    yellow none 
+WhichKeyFloating                none  bg2 
 #}}}
 # Vimshell {{{
 verbatim
