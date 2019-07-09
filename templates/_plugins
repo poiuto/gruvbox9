@@ -159,6 +159,12 @@ SyntasticWarningSign             yellow bg1
 multiple_cursors_cursor          none   none    reverse
 multiple_cursors_visual          none   bg2
 # }}}
+# Vim Which Key {{{
+WhichKey                        purple none
+WhichKeySeperator               grey  none
+WhichKeyGroup                -> Keyword  
+WhichKeyDesc                    yellow none 
+#}}}
 # Vimshell {{{
 verbatim
 let g:vimshell_escape_colors = [
