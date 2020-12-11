@@ -123,7 +123,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi Label guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Macro guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Number guifg=#d3869b guibg=NONE guisp=NONE gui=NONE cterm=NONE
-    hi Operator guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi Operator guifg=#ebdbb2 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi PreCondit guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi PreProc guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Repeat guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -2900,7 +2900,7 @@ endif
 " StartifyHeader                   yellow none
 " StartifyFooter                   bg2    none
 " deniteSeelectedLine             yellow none
-" deniteMatchedChar               green  none    bold 
+" deniteMatchedChar               green  none    bold
 " deniteMatchedRange              blue   none    underline
 " deniteMode                      grey   none    g=italic
 " SyntasticError                   none   none    t=underline g=undercurl s=red
@@ -2911,9 +2911,9 @@ endif
 " multiple_cursors_visual          none   bg2
 " WhichKey                        purple none
 " WhichKeySeperator               grey  none
-" WhichKeyGroup                -> Keyword  
-" WhichKeyDesc                    yellow none 
-" WhichKeyFloating                none  bg2 
+" WhichKeyGroup                -> Keyword
+" WhichKeyDesc                    yellow none
+" WhichKeyFloating                none  bg2
 " let g:vimshell_escape_colors = [
 "   \ '@guibg4', '@guired', '@guigreen', '@guiyellow',
 "   \ '@guiblue', '@guipurple', '@guiaqua', '@guifg4',
@@ -3520,7 +3520,7 @@ endif
 " StartifyHeader                   yellow none
 " StartifyFooter                   bg2    none
 " deniteSeelectedLine             yellow none
-" deniteMatchedChar               green  none    bold 
+" deniteMatchedChar               green  none    bold
 " deniteMatchedRange              blue   none    underline
 " deniteMode                      grey   none    g=italic
 " SyntasticError                   none   none    t=underline g=undercurl s=red
@@ -3531,9 +3531,9 @@ endif
 " multiple_cursors_visual          none   bg2
 " WhichKey                        purple none
 " WhichKeySeperator               grey  none
-" WhichKeyGroup                -> Keyword  
-" WhichKeyDesc                    yellow none 
-" WhichKeyFloating                none  bg2 
+" WhichKeyGroup                -> Keyword
+" WhichKeyDesc                    yellow none
+" WhichKeyFloating                none  bg2
 " let g:vimshell_escape_colors = [
 "   \ '@guibg4', '@guired', '@guigreen', '@guiyellow',
 "   \ '@guiblue', '@guipurple', '@guiaqua', '@guifg4',
